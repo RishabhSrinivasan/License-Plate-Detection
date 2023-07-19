@@ -1,0 +1,37 @@
+#no,#yes{
+    background-color: rgb(69, 69, 237);
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: x-large;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.onesub{
+    text-align: center;
+}
+#no{
+    margin-right: 50px;
+}
+#yes{
+    margin-left: 50px;
+}
+#no:hover,#yes:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+.upper{
+    border: 2px solid black;
+    max-width: fit-content;
+    margin-left: 450px;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 5px 5px 40px black;
+}
+body{
+    background-image: url("");
+}

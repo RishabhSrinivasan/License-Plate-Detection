@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contents page</title>
+    <link rel="stylesheet" href="DSwebpage.css">
+</head>
+<body>
+    <div class="upper">
+    <h1><pre>    <img src="iconphoto.png" height="150" width="150"/>  ACCOUNT REGISTRATION </pre></h1>
+    <div class="container">
+    
+    <h1> <pre>         </pre></h1>
+    <h2><pre>            Vehicle Owner Name*</pre></h2>
+    <pre>                  <input type="text" name="pname"  placeholder="First     Middle     Last"></pre>
+    <br>
+   
+    <span class="item12">
+       <h2> <pre>            Contact Number*</pre></h2>
+    <pre>                  <input type="tel" placeholder="123-45-678" name="    contactno"></pre>
+    </span>
+    <script>
+        function calculateAge() {
+          var today = new Date();
+          var birthdate = new Date(document.getElementById("date").value);
+          var age = today.getFullYear() - birthdate.getFullYear();
+          var month = today.getMonth() - birthdate.getMonth();
+          if (month < 0 || (month === 0 && today.getDate() < birthdate.getDate())) {
+            age--;
+          }
+          document.getElementById("age").value = age;
+        }
+      </script>
+    </head>
+    <body>
+      <br>
+      <form>
+        <h2><pre>           <label for="date"> Date of Birth*</label></pre></h2>
+        <pre>                  <input type="date" id="date" name="date" onchange="calculateAge()"></pre>
+        <br>
+        <h2><pre>            <label for="age">Age:</label></pre></h2>
+        <pre>                  <input type="text" id="age" name="age" readonly></pre>
+      </form>
+<br>
+    <h2> <pre>            Email id*</pre></h2>
+    <pre>                  <input type="text" placeholder="abc@gmail.com"  name="info"></pre>
+<br>
+<span class="item13">
+    <h2> <pre>            Vehicle Number*</pre></h2>
+ <pre>                  <input type="tel"  name="    Vehicleno"></pre>
+ </span>
+<br>
+    <h2><pre>            Vehicle Model Name*</pre></h2>
+    <pre>                  <input type="text" name="vname"  placeholder="Company  Model"></pre>
+    <br>
+<pre><h2>            State*</h2>  </pre>
+        <pre>                  <select name="city"></pre>
+            <option value="Andra Pradesh" id="1">Andra Pradesh</option>
+            <option value="Arunachal Pradesh" id="2">Arunachal Pradesh</option>
+            <option value="Asssam" id="3">Asssam</option>
+            <option value="Bihar" id="4">Bihar</option>
+            <option value="Chattisgarh" id="5">Chattisgarh</option>
+            <option value="Goa" id="6">Goa</option>
+            <option value="Gujarat" id="7">Gujarat</option>
+            <option value="Haryana" id="8">Haryana</option>
+            <option value="Himachal Pradesh" id="9">Himachal Pradesh</option>
+            <option value="Jharkhand" id="10">Jharkhand</option>
+            <option value="Karnataka" id="11">Karnataka</option>
+            <option value="Kerala" id="12">Kerala</option>
+            <option value="Madhya Pradesh" id="13">Madhya Pradesh</option>
+            <option value="Maharashtra" id="14">Maharashtra</option>
+            <option value="Manipur" id="15">Manipur</option>
+            <option value="Meghalaya" id="17">Meghalaya</option>
+            <option value="Mizoram" id="18">Mizoram</option>
+            <option value="Nagaland" id="19">Nagaland</option>
+            <option value="Odisha" id="20">Odisha</option>
+            <option value="Punjab" id="21">Punjab</option>
+            <option value="Rajasthan" id="22">Rajasthan</option>
+            <option value="Sikkim" id="23">Sikkim</option>
+            <option value="Tamil Nadu" id="24">Tamil Nadu</option>
+            <option value="Telangana" id="25">Telangana</option>
+            <option value="Tripura" id="27">Tripura</option>
+            <option value="Uttarakhand" id="28">Uttarakhand</option>
+            <option value="Uttar Pradesh" id="28">Uttar Pradesh</option>
+            <option value="West Bengal" id="29">West Bengal</option>
+          
+        </select>
+    <h2> <pre>            Address</pre></h2>
+    <pre>                  <textarea name="Special" id="1"  rows="5"></textarea></pre>
+
+    
+    
+   <br>
+   <span class="submit">
+   <pre>               <a href="https://uploads-ssl.webflow.com/5ef0df6b9272f7410180a013/60c0e28575cd7c21701806fd_q1cunpuhbdreMPFRSFLyfUXNzpqv_I5fz_plwv6gV3sMNXwUSPrq88pC2iJijEV7wERnKXtdTA0eE4HvdnntGo9AHAWn-IcMPKV-rZw1v75vlTEoLF4OdNqsRb7C6r7Mvzrm7fe4.png"><input href="https://uploads-ssl.webflow.com/5ef0df6b9272f7410180a013/60c0e28575cd7c21701806fd_q1cunpuhbdreMPFRSFLyfUXNzpqv_I5fz_plwv6gV3sMNXwUSPrq88pC2iJijEV7wERnKXtdTA0eE4HvdnntGo9AHAWn-IcMPKV-rZw1v75vlTEoLF4OdNqsRb7C6r7Mvzrm7fe4.png" id="sub" type="submit"  value="save"></a></pre>
+   </span>
+
+</div>
+</div>
+</body>
+</html>

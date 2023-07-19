@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>User Dashboard</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+    }
+    input[disabled] {
+      background-color: #fff;
+      cursor: default;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>User Dashboard</h1>
+    <form>
+      <div class="form-group">
+        <label for="owner-name">Vehicle Owner Name:</label>
+        <input type="text" id="owner-name" name="owner-name" class="form-control" value="John Doe" disabled>
+      </div>
+      <div class="form-group">
+        <label for="contact-no">Contact No:</label>
+        <input type="text" id="contact-no" name="contact-no" class="form-control" value="123-456-7890" disabled>
+      </div>
+      <div class="form-group">
+        <label for="contact-no">Email id:</label>
+        <input type="text" id="emailid" name="oeid" class="form-control" value="abc123@gmail.com" disabled>
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" class="form-control" value="30" disabled>
+      </div>
+      <div class="form-group">
+        <label for="vehicle-no">Vehicle No:</label>
+        <input type="text" id="vehicle-no" name="vehicle-no" class="form-control" value="ABC123" disabled>
+      </div>
+      <div class="form-group">
+        <label for="vehicle-model">Vehicle Model Name:</label>
+        <input type="text" id="vehicle-model" name="vehicle-model" class="form-control" value="Toyota Camry" disabled>
+      </div>
+      <div class="form-group">
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" class="form-control" value="California" disabled>
+      </div>
+      <div class="form-group">
+        <label for="state">No. of times fined: </label>
+        <input type="text" id="timesfined" name="notf" class="form-control" value="" disabled>
+      </div>
+    </form>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
